@@ -94,15 +94,20 @@ struct UserHoldingsView: View {
         }
     }
     
+    @ViewBuilder
+    var holdingListView: some View {
+        List(um.portfolio!.userHolding) { userHolding in
+            holdingCell(for: userHolding)
+        }
+        .background(Color.secondary)
+        .listStyle(.plain)
+    }
+    
     var body: some View {
         if(um.viewState == .loading) {
             ProgressView()
         } else if (um.viewState == .loaded && um.portfolio != nil) {
-            List(um.portfolio!.userHolding) { userHolding in
-                holdingCell(for: userHolding)
-            }
-            .background(Color.secondary)
-            .listStyle(.plain)
+            holdingListView
             UserPortfolioView()
                 .environmentObject(um)
         }

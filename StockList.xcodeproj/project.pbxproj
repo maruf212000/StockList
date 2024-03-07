@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		12D28E502B98A783006F476C /* StockListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D28E4F2B98A783006F476C /* StockListApp.swift */; };
-		12D28E522B98A783006F476C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D28E512B98A783006F476C /* ContentView.swift */; };
 		12D28E542B98A785006F476C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D28E532B98A785006F476C /* Assets.xcassets */; };
 		12D28E572B98A785006F476C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D28E562B98A785006F476C /* Preview Assets.xcassets */; };
 		12D28E5F2B98ABA3006F476C /* UserHoldingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D28E5E2B98ABA3006F476C /* UserHoldingModel.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		12D28E4C2B98A783006F476C /* StockList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D28E4F2B98A783006F476C /* StockListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListApp.swift; sourceTree = "<group>"; };
-		12D28E512B98A783006F476C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12D28E532B98A785006F476C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12D28E562B98A785006F476C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12D28E5E2B98ABA3006F476C /* UserHoldingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHoldingModel.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				12D28E602B98B4F5006F476C /* Networking */,
 				12D28E5D2B98A7F0006F476C /* Model */,
 				12D28E4F2B98A783006F476C /* StockListApp.swift */,
-				12D28E512B98A783006F476C /* ContentView.swift */,
 				12D28E532B98A785006F476C /* Assets.xcassets */,
 				12D28E552B98A785006F476C /* Preview Content */,
 			);
@@ -206,7 +203,6 @@
 			files = (
 				12D28E622B98B513006F476C /* APIServiceProtocol.swift in Sources */,
 				12D28E5F2B98ABA3006F476C /* UserHoldingModel.swift in Sources */,
-				12D28E522B98A783006F476C /* ContentView.swift in Sources */,
 				12D28E702B98C74E006F476C /* UserHoldingsViewModel.swift in Sources */,
 				12D28E652B98B54B006F476C /* APIError.swift in Sources */,
 				12D28E672B98B578006F476C /* APIService.swift in Sources */,

@@ -11,7 +11,12 @@ import SwiftUI
 struct StockListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                UserHoldingsView()
+                    .navigationTitle("Upstox Holding")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .themedNavigationBar()
+            }
         }
     }
 }
